@@ -59,9 +59,29 @@
 #include <iomanip>   // necessário para usar setprecision
 using namespace std;
 
+
+
 int main() {
-
+    double nota1, nota2, nota3, notaf;
     
+    cout << "Digite a primeira nota: ";
+    cin >> nota1;
 
+    cout << "Digite a segunda nota: ";
+    cin >> nota2;
+
+    cout << "Digite a terceira nota: ";
+    cin >> nota3;
+
+    notaf = (nota1+nota2+nota3)/3;
+
+    if (notaf > 6.0)
+    {
+    cout << "Sua média é igual a: " << notaf << " Aprovado!" << endl;
+    }
+    else
+    {
+    cout << "Sua média é igual a: " << notaf << " Reprovado!" << endl;
+    }
     return 0;
 }
