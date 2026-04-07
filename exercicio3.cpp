@@ -81,6 +81,11 @@
 using namespace std;
 
 int main() {
+    float desconto = 10.0, precorigin;
+    int quantidade;
+    char loja;
+
+    cout < 
 
 
     return 0;
